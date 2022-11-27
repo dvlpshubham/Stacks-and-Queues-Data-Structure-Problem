@@ -6,7 +6,7 @@ public class Node {
 
     /**
      *
-     * @param data - values defined in nodes
+     * @param data - value defined in nodes
      */
     public Node(int data) {
         super();
