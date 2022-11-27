@@ -3,17 +3,11 @@ package datastructure;
 public class Main {
     public static void main(String[] args) {
 
-        StackService list = new StackService();
-        list.push(70);
-        list.push(30);
-        list.push(56);
-        list.peak();
-        list.pop();
-        list.peak();
-        list.pop();
-        list.peak();
-        list.pop();
-        list.peak();
-        list.printList();
+        System.out.println("Welcome to Queue Data Structure");
+        Queue queue = new Queue();
+        queue.enque(56);
+        queue.enque(30);
+        queue.enque(70);
+
     }
 }
