@@ -7,6 +7,10 @@ public class Queue {
         linkedList.addLast(data);
         displayQueue();
     }
+    public void deque() {
+        linkedList.deleteFirst();
+        displayQueue();
+    }
 
     public void displayQueue() {
         linkedList.display();
